@@ -8,42 +8,56 @@
     <link rel="shortcut icon" href="assets/myfavicon.png" type="image/x-icon">
     <style>
       header{
-        color: darkorange;
-        background-color: azure;
+        color:rgb(201, 24, 24);
+        background-color: rgb(175, 236, 236);
+        margin-bottom: 30px;
       }
       .frame{
-        background-color: cornsilk;
+        background-color: rgb(236, 219, 147);
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+      .name{
+        margin-right: 50px;
+      }
+      .contact{
+        margin-right: 50px;
+      }
+      .header-icon{
+        margin-right: 10px;
+      }
+      .home{
+        margin-right: 30px;
+      }
+      .follow{
+        margin-right: 40px;
       }
     </style>
 </head>
 <body>
     <!--Header Section-->
     <header>
-      <i class="fa fa-user" aria-hidden="true"></i>&nbsp; <span>Payal Abhang</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <i class="fa fa-mobile" aria-hidden="true"></i>&nbsp; <span>+91 82 7789 2276</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <i class="fa fa-envelope" aria-hidden="true"></i> &nbsp;<span>payalabhang32@gmail.com</span>
-    </header>
-    <br />  
+      <i class="header-icon fa fa-user" aria-hidden="true"></i><span class="name">Payal Abhang</span>
+      <i class="header-icon fa fa-mobile" aria-hidden="true"></i><span class="contact">+91 82 7789 2276</span> 
+      <i class="header-icon fa fa-envelope" aria-hidden="true"></i><span>payalabhang32@gmail.com</span>
+    </header>  
     <!--Navigation Section-->
     <nav>
-        <a href="home.html" target="myFrame">HOME</a>&nbsp;&nbsp;&nbsp;
-        <a href="techStack.html" target="myFrame">TECH STACK</a>&nbsp;&nbsp;&nbsp;
-        <a href="projectDetails.html" target="myFrame">PROJECT </a>&nbsp;&nbsp;&nbsp;
-        <a href="education.html" target="myFrame">EDUCTION</a>&nbsp;&nbsp;&nbsp;
-        <a href="others.html" target="myFrame">OTHERS</a>&nbsp;&nbsp;&nbsp;
-        <a href="personal.html" target="myFrame">PERSONAL</a>&nbsp;&nbsp;&nbsp;
+        <a class="home" href="home.html" target="myFrame">HOME</a>
+        <a class="home" href="techStack.html" target="myFrame">TECH STACK</a>
+        <a class="home" href="projectDetails.html" target="myFrame">PROJECT </a>
+        <a class="home" href="education.html" target="myFrame">EDUCTION</a>
+        <a class="home" href="others.html" target="myFrame">OTHERS</a>
+        <a href="personal.html" target="myFrame">PERSONAL</a>
     </nav>
-    <br />
     <!--Main Section-->
     <iframe class="frame" src="home.html" height="600" width="1300" name="myFrame" frameborder="0"></iframe>
-    <br /> 
-    <br />
     <!--Footer Section-->
     <footer>
-      <span>follow Me</span>  &nbsp;&nbsp;&nbsp;
-      <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="https://www.Google.com/" target="_blank"> <i class="fa fa-2x fa-google" aria-hidden="true"></i></a> &nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="https://www.facebook.com/" target="_blank"> <i class="fa fa-2x fa-facebook-official" aria-hidden="true"></i></a> &nbsp;&nbsp;&nbsp;&nbsp;
+      <span class="follow">follow Me</span>
+      <a class="follow" href="https://www.linkedin.com/" target="_blank"><i class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i></a>
+      <a class="follow" href="https://www.Google.com/" target="_blank"> <i class="fa fa-2x fa-google" aria-hidden="true"></i></a> 
+      <a class="follow" href="https://www.facebook.com/" target="_blank"> <i class="fa fa-2x fa-facebook-official" aria-hidden="true"></i></a> 
       <a href="https://www.instagram.com/" target="_blank"> <i class="fa fa-2x fa-instagram" aria-hidden="true"></i></a> 
     </footer>
 </body>
