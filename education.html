@@ -18,15 +18,34 @@
             border-color: rgb(95, 95, 205);
             letter-spacing: 2px;
         }
-        table{
-            font-family: 'Poppins', sans-serif;
-            background-color: bisque;
+        thead{
+            color: white;
+            background-color: black;
         }
-        
+        #number:hover{
+            background-color: aqua;
+        }
+        .academic:hover{
+            background-color: aqua; 
+        }
+        .college:hover{
+            background-color: aqua; 
+        }
+        .percentage:hover{
+            background-color: aqua; 
+        }
+        .board:hover{
+            background-color: aqua;   
+        }
     </style>
 </head>
 <body>
-    <h2>Education Details</h2>
+    <h2>Educational Details</h2>
+    <strong> Name :</strong> Payal Abhang<br>
+    <strong>Email  :</strong> abcd@gmail.com<br>
+     <strong>Mobile:</strong> +91 98 8967 7889
+     <hr>
+    <h2>Academic Details</h2>
    <table border="1px" style="border-collapse: collapse;">
       <thead >
           <tr>
@@ -39,25 +58,25 @@
       </thead>
      <tbody>
          <tr>
-             <td>1</td>
-             <td>Graduation</td>
-             <td>ASC College</td>
-             <td>65%</td>
-             <td>Pune University</td>
+             <td id="number">1</td>
+             <td class="academic">Graduation</td>
+             <td class="college">ASC College</td>
+             <td class="percentage">65%</td>
+             <td class="board">Pune University</td>
          </tr>
          <tr>
-             <td>2</td>
-             <td>HSC or 12th</td>
-             <td>Narayandas Ramadans High School</td>
-             <td>60%</td>
-             <td>Maharashtra State Board</td>
+             <td id="number">2</td>
+             <td class="academic">HSC or 12th</td>
+             <td class="college">Narayandas Ramadans High School</td>
+             <td class="percentage">60%</td>
+             <td class="board">Maharashtra State Board</td>
          </tr>
          <tr>
-             <td>3</td>
-             <td>SSC or 10th</td>
-             <td>Ketkeshwar Vidyalay Nimgoan Ketaki</td>
-             <td>77.60%</td>
-             <td>Maharashtra State Board</td>
+             <td id="number">3</td>
+             <td class="academic">SSC or 10th</td>
+             <td class="college">Ketkeshwar Vidyalay Nimgoan Ketaki</td>
+             <td class="percentage">77.60%</td>
+             <td class="board">Maharashtra State Board</td>
          </tr>
       </tbody>
     </table>
