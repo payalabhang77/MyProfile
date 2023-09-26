@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=div, initial-scale=1.0">
+    <title>Subscriber</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Roboto+Flex:opsz,wght@8..144,500&display=swap" rel="stylesheet">
+    <style>
+        div{
+            display: inline-block;
+            height: 580px;
+            width: 500px;
+            margin-top: 60px;
+            margin-left: 60px;
+            position: relative;
+            border-color: rgb(145, 123, 95);
+            border-radius: 30px;
+            box-shadow: rgba(230, 198, 198, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+        #main{
+            background-color: rgb(148, 148, 234);
+            height: 220px;
+            width: 350px;
+            border-radius: 10px;
+            padding-right: 40px;
+           margin-bottom: 20px;
+           margin-left: 45px;
+           font-family: 'Poppins', sans-serif;
+        }
+        input{
+          margin-bottom: 20px;
+        }
+        h2{
+            font-family: 'Roboto Flex', sans-serif;
+            text-transform: uppercase;
+            padding-left: 160px;
+            text-decoration: underline;
+        }
+        input{
+          padding-right: 220px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          margin-left: 45px;
+          border-radius: 10px;
+          background-color: rgb(249, 249, 250);
+        }
+        button{
+            margin-left: 320px;
+            padding:  10px 20px 10px 20px;
+            margin-top: 20px;
+            background-color: rgb(249, 249, 250);
+            border-radius: 10px;
+        }
+        label{
+            margin-left: 45px;
+            font-family: 'Poppins', sans-serif; 
+        }
+        .star{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>Subscriber</h2>
+        <textarea name="" id="main" cols="30" rows="9"> 
+        We're sorry to see you go, but hey, no hard 
+        feeling,hopefully we Will see yo back 
+        one day.
+        Please fill in your email address in order to  
+        unsubscribe from the list.
+        You will receive an email to conform your
+        un subscription, just to make sure this is 
+        not an accident or somebody else tries to  
+        unsubscribe you.
+        </textarea>
+        <br>
+       <label  for="">Email <span class="star">*</span></label><br>
+       <input type="email"><br>
+       <label for="">Unsubscribe reason</label><br>
+       <input type="text" placeholder="Unsubscribe reason"><br>
+       <button>unsubscribe</button>
+    </div>
+</body>
+</html>
